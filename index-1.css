@@ -1,0 +1,189 @@
+ body{
+    margin:10px;
+    padding: 0px;
+    font-family: calibri;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*
+title
+{
+    color: rgb(33, 107, 136);
+
+}
+
+section
+{
+    background: url(hero-bg.png);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    outline: none;
+    border: none;
+}
+input{
+    outline: none;
+    border: none;
+}
+.main{
+
+    width:100%;
+    height:660px;
+    position: relative;
+}
+.logo img{
+    height: 90px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 5px 5px; padding-left: 260px;
+    background-color:#fff;
+    box-shadow: 6px 6px 20px rgba(168, 70, 25, 0.164);
+    z-index: 1;
+    width:100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+}
+li
+{
+    color: #F14D5D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li:hover
+{
+    color: cadetblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:90%;
+
+}
+.home-img{
+    width:500px;
+    height:400px;
+    margin:20px;
+}
+.home-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.home-text{
+    width:500px;
+    margin: 20px;
+}
+.home-text h1{
+    font-size: 3.5rem;
+    line-height: 55px;
+    color:#22252e;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0px;
+}
+.home-text p{
+    font-size: 1rem;
+    color:#777474;
+}
+.home-text span{
+    color: #F14D5D;
+    text-decoration: underline;
+}
+
+.main-login:hover{
+    background-color: #F14D5D;
+    transition: all ease 0.3s;
+}
+
+nav .menu-btn{
+    display: none;
+}
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  a
+  {
+      margin-right: 5%;
+  }
+  img
+  {
+      border-radius: 20px;
+  }
+   */
+   td
+   {
+       text-align: center;
+       padding: 5px;
+
+   }
+   header
+   {
+    background-color: rgb(18, 117, 96);
+    border-top-left-radius: 10pt;
+    border-top-right-radius: 10pt;
+   }
+   .img
+   {
+    border-radius: 20%;
+  
+   }
+   .nav:hover
+   {
+       font-family: 'Times New Roman', Times, serif;
+       color: coral;
+   }
+   button
+   {
+    outline: none;
+    border: none;
+   }
+   button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 18px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+   
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  a
+  {
+    text-decoration: none;
+  }
+  .gra
+{
+    background-color: #DEDEDE;
+   
+    border-bottom-left-radius: 10pt;
+    border-bottom-right-radius: 10pt;
+}

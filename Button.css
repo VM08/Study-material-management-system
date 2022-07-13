@@ -1,0 +1,84 @@
+*
+{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.contain
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.contain a
+{
+    position: relative;
+    width: 160px;
+    height: 60px;
+    display: inline-block;
+    background: #fff;
+    margin: 20px;
+    
+
+
+}
+.contain a:before,
+.contain a:after
+{
+    content: ' ';
+    position: absolute;
+    inset: 0;
+    background: rgb(18, 117, 96);
+    transition: 0.5s;
+}
+.contain a:nth-child(1)::before,
+.contain a:nth-child(1)::after
+{
+    background: linear-gradient(45deg,#09090a,#0a0a0a,#0a0a0a,#080808);
+}
+
+.contain a:hover:before
+{
+    inset: -3px;
+
+}
+.contain a:hover:after
+{
+    inset: -3px;
+    filter: blur(10px);
+    
+}
+.contain a span
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background:  rgb(18, 117, 96);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.0em;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    color: #fff;
+    border: 1px solid rgb(18, 117, 96);
+    
+
+}
+.contain a span::before
+{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 1005;
+    background: rgba(10, 10, 10, 0.075);
+    transform: skew(25deg);
+
+}
